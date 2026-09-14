@@ -7,7 +7,7 @@ import {surveyWorkbook} from '../app/xlsx-export';
 import './site.css';
 
 // Google Apps Script web app URL (deploy apps-script/Code.gs).
-const API='';
+const API='https://script.google.com/macros/s/AKfycbwMGVS8XdDdKSM6tea45o411E8SqaWarvTZfwIZKmuZQwHi99T7PqlhXCh85E-5U6E-/exec';
 const KEY='manoly-survey';
 
 type Saved={id:string;name:string;answers:Answers;step:number;done:boolean};
